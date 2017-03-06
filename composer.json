@@ -1,0 +1,25 @@
+{
+	"name": "weijianghu/yii2-qrcode",
+	"description": "QR Code 2-D barcode generator",
+	"keywords": ["yii2", "weijianghu", "qrcode", "php", "phpqrcode"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/weijianghu/yii2-qrcode/issues",
+		"wiki": "https://github.com/weijianghu/yii2-qrcode/wiki",
+		"source": "https://github.com/weijianghu/yii2-qrcode"
+	},
+	"authors": [
+		{
+			"name": "weijianghu",
+			"email": "76112703@qq.com"
+		}
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "weijianghu/phpqrcode": "*"
+    },
+	"autoload": {
+		"psr-4": {"yii\\qrcode\\": ""}
+	}
+}
